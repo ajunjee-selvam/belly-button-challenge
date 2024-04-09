@@ -1,6 +1,8 @@
 // Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
 d3.json("samples.json").then(function(samples_data){
     console.log(samples_data)
+    optionChanged(d3.select("#selDataset").property("value"));
+
 });
 
 // Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual. 
@@ -84,7 +86,7 @@ function demoInfo(data) {
 
 // Update all the plots when a new sample is selected. 
 function optionChanged(value) {
-    d3.json("./data/samples.json").then(function(sample_data) {
+    d3.json("samples.json").then(function(sample_data) {
         // Filter the metadata for the selected id
         let metadata = sample_data.metadata.filter(data => data.id == value);
 
