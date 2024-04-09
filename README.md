@@ -8,11 +8,11 @@ The interactive dashboard has been published on GitHub pages and can be found he
 - Bar chart illustrating Top 10 OTUs for the specified ID
 - Bubble chart illustrating OTUs and their relative values
 
-The following libraries were used to complete this challenge:
+### Libraries Used
 - D3: JavaScript library for dynamic visualizations
 - Plotly: JavaScript ilbrary for generating plots
 
-The repo contains the following files:
+### Repo Contents
 - samples: data file stored in JSON format
 - index: HTML file used for the dashboard page framework
 - static: folder containing the 'app' JavaScript file in the js folder
