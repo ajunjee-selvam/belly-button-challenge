@@ -13,6 +13,6 @@ The interactive dashboard has been published on GitHub pages and can be found he
 - Plotly: JavaScript ilbrary for generating plots
 
 ### Repo Contents
-- **samples**: data file stored in JSON format
+- **samples**: data file stored in JSON format for import
 - **index**: HTML file used for the dashboard page framework
-- **static**: folder containing the 'app' JavaScript file in the js folder
+- **static**: folder containing the 'app' JavaScript file in the js folder used for transforming the imported data
